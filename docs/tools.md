@@ -1,0 +1,2 @@
+ * Slack workspace: https://join.slack.com/t/slack-hjx3242/shared_invite/zt-1raq7k6oy-CeVNkP2oUhrVQZX0B8HI9A
+ * Trello workspace: https://trello.com/invite/studentprojects2023sk2/ATTI1574721a816917f64d26165fa080d76a4AB3CDBC
