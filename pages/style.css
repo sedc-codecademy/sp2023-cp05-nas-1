@@ -1,0 +1,117 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #ffffff;
+  font-family: "Roboto";
+  font-size: 12pt;
+  text-align: center;
+  background-image: url(https://th.bing.com/th/id/R.6346f91550a45fcabd3295e81d86e76b?rik=4BZ%2bz9giGUHPxA&pid=ImgRaw&r=0);
+}
+h1 {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+header {
+  overflow: hidden;
+}
+
+#top-header {
+  text-align: center;
+  height: 60px;
+}
+
+#menu {
+  width: 70%;
+  height: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: relative;
+  bottom: 15px;
+  
+}
+
+#menu ul {
+  text-align: center;
+
+  margin: none;
+  background: #0074d9;
+}
+
+#menu li {
+  display: inline-block;
+  padding: none;
+  margin: none;
+}
+
+#menu li a,
+#menu li span {
+  display: inline-block;
+  padding: 0em 1.5em;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 60px;
+  font-family:'Times New Roman', Times, serif;
+}
+
+#menu li a {
+  color: #fff;
+}
+
+#menu li:hover a,
+#menu li span {
+  background: darkcyan;
+  color: #0074d9;
+  border-left: 1px solid #0074d9;
+  text-decoration: none;
+}
+
+#menu {
+  width: 100%;
+  height: 100%;
+  margin: none;
+}
+
+#menu ul {
+  text-align: center;
+
+  margin: none;
+  background: #0074d9;
+}
+
+#menu li {
+  display: inline-block;
+  padding: none;
+  margin: none;
+}
+
+#menu li a,
+#menu li span {
+  display: inline-block;
+  padding: 0em 1.5em;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 60px;
+}
+
+#menu li a {
+  color: whitesmoke;
+}
+
+#menu li:hover a {
+  background: #fff;
+  color: #0074d9;
+  border-left: 1px solid #0074d9;
+  text-decoration: none;
+}
