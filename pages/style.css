@@ -1,0 +1,22 @@
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+#banner {
+  border: 1px solid black;
+}
+
+#aside {
+  border-left: 1px solid black;
+}
+
+#asideImg {
+  width: 500px;
+}
+
+#mainImg {
+  width: 700px;
+}
