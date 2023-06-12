@@ -1,15 +1,18 @@
 [
     {
+        "id": 1,
         "name": "hotrizontal_ad-top",
-        "link": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fsempreinter.com%2F2021%2F05%2F22%2Fofficial-pirelli-no-longer-inter-shirt-sponsor-but-instead-global-tyre-partner%2F&psig=AOvVaw1sUdhVI7G3MCebWcNoIZ56&ust=1684590690392000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKCzxL_Dgf8CFQAAAAAdAAAAABAE"
+        "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Logo_Pirelli.svg/2560px-Logo_Pirelli.svg.png"
 
     },
     {
+        "id":2,
         "name": "hotrizontal_ad-middle",
-        "link": "https://www.google.com/url?sa=i&url=https%3A%2F%2Finstapage.com%2Fblog%2Fbanner-ads%2F&psig=AOvVaw0PguLO6scfAR08Ztqdgiud&ust=1684590807944000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKjw5ffDgf8CFQAAAAAdAAAAABAQ"
+        "link": "https://explore-macedonia.mk/wp-content/uploads/2018/12/logo-new.png"
     },
     {
+        "id": 3,
         "name": "aside_ad",
-        "link": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2FMacedonia.Timeless.appt%2F&psig=AOvVaw2LdMBO_GmMsz6Shhz7_iye&ust=1684590963659000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLiS58HEgf8CFQAAAAAdAAAAABAE"
+        "link": "https://www.telegraph.co.uk/content/dam/travel/2022/04/01/TELEMMGLPICT000291413309_trans_NvBQzQNjv4BqqVzuuqpFlyLIwiB6NTmJwSX5rhseiWKOo9p9OQ-ymek.jpeg?imwidth=680"
     }
 ]
