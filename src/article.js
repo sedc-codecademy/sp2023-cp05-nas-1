@@ -1,31 +1,24 @@
-
 const localJson = "./data/article.final.json";
 const articlePage = document.getElementById("articlePage");
 let article = [];
+let articles = [];
+let data = [];
 
-const defaultSource = "https://www.rt.com/rss/news/";
+const defaultSource = "https://www.rt.com/rss/";
 
 const loadArticle = async () => {
   const id = new URLSearchParams(window.location.search);
-  const articleId = id.get('id');
+  const articleId = id.get("id");
   console.log(articleId);
-
-  const xhr = new XMLHttpRequest();
-  xhr.open(
-    "GET",
-    "https://api.rss2json.com/v1/api.json?rss_url=" + defaultSource,
-    true
+  let res = await fetch(
+    "https://api.rss2json.com/v1/api.json?rss_url=" + defaultSource
   );
-  xhr.onload = function() {
-    if (xhr.status === 200) {
-      const data = JSON.parse(xhr.responseText);
-      let articles = data.items;
-      // console.log(articles)
+  let data = await res.json();
+  articles = data.items;
 
-      article = articles.find((item) => item.pubDate == articleId);
+  let article = articles.find((item) => item.pubDate == articleId);
 
-
-      articlePage.innerHTML = `
+  articlePage.innerHTML = `
     <div class="container-fluid mt-5 ml-5">
       <div class="row gx-5">
         <div class="col-md-8 mb-4">
@@ -38,8 +31,6 @@ const loadArticle = async () => {
       </div>
     </div>
   `;
-    }
-  };
-  xhr.send();
 };
+
 loadArticle();

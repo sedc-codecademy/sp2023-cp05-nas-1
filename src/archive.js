@@ -1,24 +1,18 @@
-
 const localJson = "./data/article.final.json";
 const archive = document.getElementById("archive");
 let articles = [];
+let data;
 
 const getArticle = async () => {
-
-  await fetch(localJson)
-    .then((res) => res.json())
-    .then((data) => {
-      articles = data
-      console.log(articles)
-    })
-}
+  let res = await fetch(localJson);
+  data = await res.json();
+  articles = data;
+  console.log(articles);
+};
 const loadArchive = async () => {
-
-  articles.forEach((element => {
-
+  articles.forEach((element) => {
     element.description = element.description.replace(/<img[^>]*>/g, "");
-    //let id = element.pubDate
-    // console.log(id)
+
     archive.innerHTML += `
               
 <div class="col-12 col-md-6 col-lg-3 mt-4 mb-4 p-3">
@@ -37,18 +31,11 @@ const loadArchive = async () => {
   </div >
 
 </div >
-      `
-
-  }));
+      `;
+  });
 };
 
-
-
-//<button type="button" class="btn btn-primary" id="readMore" data-id="${id}">Read more</button>
-
-
 (async () => {
-  await getArticle()
-
-  loadArchive()
+  await getArticle();
+  await loadArchive();
 })();
