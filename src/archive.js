@@ -1,16 +1,24 @@
 const localJson = "./data/article.final.json";
 const archive = document.getElementById("archive");
 let articles = [];
+let article = [];
 let data;
 
 const getArticle = async () => {
   let res = await fetch(localJson);
   data = await res.json();
   articles = data;
-  console.log(articles);
 };
-const loadArchive = async () => {
-  articles.forEach((element) => {
+const getArticleFromStorage = () => {
+  for (let i = 0; i < localStorage.length; i++) {
+    let key = localStorage.key(i);
+    let value = localStorage.getItem(key);
+    article.push(JSON.parse(value));
+  }
+};
+
+const loadArchive = async (source) => {
+  source.forEach((element) => {
     element.description = element.description.replace(/<img[^>]*>/g, "");
 
     archive.innerHTML += `
@@ -37,5 +45,8 @@ const loadArchive = async () => {
 
 (async () => {
   await getArticle();
-  await loadArchive();
+  getArticleFromStorage();
+
+  let source = article.length > 5 ? article : articles;
+  await loadArchive(source);
 })();

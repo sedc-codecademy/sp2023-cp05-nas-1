@@ -1,5 +1,5 @@
 const localJson = "./data/article.final.json";
-const defaultSource = "https://www.rt.com/rss/";
+const defaultSource = "https://www.rt.com/rss/sport/";
 const adsJson = "../data/ads.json";
 
 const newsGrid = document.getElementById("newsGrid");
@@ -16,6 +16,7 @@ let data;
 let random = Math.floor(Math.random() * 8);
 let random2 = Math.floor(Math.random() * 8);
 
+// ad more ads in json file
 const getAds = async () => {
   let res = await fetch(adsJson);
   data = await res.json();
@@ -30,6 +31,7 @@ const loadAds = async () => {
   <img src="${data[random2].link}"></img>
   
   `;
+  // getAds();
 };
 
 const loadMain = async () => {
@@ -81,7 +83,7 @@ const loadMain = async () => {
 document.addEventListener("click", async (event) => {
   if (event.target.id === "readMore") {
     let articleId = event.target.dataset.id;
-    window.open(`./article.html?id=${articleId}`, "_self");
+    window.open(`./sportArticle.html?id=${articleId}`, "_self");
   }
 });
 

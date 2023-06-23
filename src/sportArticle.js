@@ -4,7 +4,7 @@ let article = [];
 let articles = [];
 let data = [];
 
-const defaultSource = "https://www.rt.com/rss/";
+const defaultSource = "https://www.rt.com/rss/sport/";
 
 const loadArticle = async () => {
   const id = new URLSearchParams(window.location.search);
@@ -14,10 +14,12 @@ const loadArticle = async () => {
     "https://api.rss2json.com/v1/api.json?rss_url=" + defaultSource
   );
   let data = await res.json();
-  articles = await data.items;
+  articles = data.items;
 
   let article = articles.find((item) => item.pubDate == articleId);
 
+  //saving objet to local storage to be used in archive page, it will be nice to put
+  //this in article.js because articles open there will be used in archive page
   let abc = article;
   let dfg = JSON.stringify(abc);
   localStorage.setItem(articleId, dfg);

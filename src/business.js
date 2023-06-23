@@ -1,5 +1,5 @@
 const localJson = "./data/article.final.json";
-const defaultSource = "https://www.rt.com/rss/";
+const defaultSource = "https://www.rt.com/rss/business/";
 const adsJson = "../data/ads.json";
 
 const newsGrid = document.getElementById("newsGrid");
@@ -81,7 +81,7 @@ const loadMain = async () => {
 document.addEventListener("click", async (event) => {
   if (event.target.id === "readMore") {
     let articleId = event.target.dataset.id;
-    window.open(`./article.html?id=${articleId}`, "_self");
+    window.open(`./businessArticle.html?id=${articleId}`, "_self");
   }
 });
 
