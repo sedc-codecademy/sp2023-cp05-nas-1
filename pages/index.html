@@ -27,35 +27,36 @@
       <a class="navbar-brand" href="#"><strong>Insider</strong></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <i class="fas fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="business.html">Business</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="entertainment.html">Entertainment</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="sport.html">Sport</a>
+            <a class="nav-link active" aria-current="page" href="#" onclick="loadMain('https://www.rt.com/rss/')"
+              id="home">Home</a>
+
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="./archive.html">Archive</a>
+            <a class="nav-link" href="#" onclick="loadMain('https://www.rt.com/rss/business/')"
+              id="business">Business</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About us</a>
+            <a class="nav-link" href="#" onclick="loadMain('https://www.rt.com/rss/pop-culture/')"
+              id="entertainment">Entertainment</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="loadMain('https://www.rt.com/rss/sport/')" id="sport">Sport</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="archive.html">Archive</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">About us</a>
           </li>
         </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-secondary" type="submit">Search</button>
-        </form>
       </div>
     </div>
   </nav>
@@ -64,7 +65,7 @@
     </div>
   </div>
   <hr>
-  <div id="wrapper">
+  <div id="wrapper" class="container-fluid">
     <main class="row container-fluid">
 
 
@@ -74,7 +75,7 @@
           <div class="row gx-5">
             <div class="col-md-6 mb-4">
               <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mdb-ripple-color="light">
-                <img id="mainImg" src="" class="img - fluid" />
+                <img id="mainImg" src="" class="img-fluid" />
                 <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
               </div>
             </div>
@@ -93,41 +94,27 @@
 
       </section>
 
-      <aside class="col-lg-4 mt-5" id="aside">
+      <aside class="col-lg-4 mt-5 aside" id="aside">
+        <div id="asideImg"></div>
       </aside>
 
-      <div class="container mt-5 mb-5" id="banner">
-        <!-- <h1>HORIZONTAL AD</h1> -->
-      </div>
+    </main>
   </div>
   <hr>
 
 
   <section class="container-fluid row p-5" id="newsGrid">
 
-
-
-
-
   </section>
 
   </main>
-
-
-
-
-
-
-
-
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
 
 
-  <!-- <script type="module" src="../src/article.js"> </script> -->
-  <script type="module" src="../src/script.js"></script>
+  <script src="../src/script.js"></script>
 
 </body>
 

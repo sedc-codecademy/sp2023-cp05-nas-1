@@ -5,20 +5,31 @@ h1 {
 h3 {
   text-align: center;
 }
-/* #banner {
-  border: 1px solid whitesmoke;
-} */
-  #wrapper {
-    display: flex;
-    justify-content: space-around;
-  }
+
+#wrapper {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+#asideImg {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 100%;
+  height: 90%;
+  margin-left: 200px;
+}
+#asideImg img {
+  width: 500px;
+  height: 100%;
+  object-fit: fill;
+}
 #banner-container {
-    display: flex;
-justify-content: space-around;
-  }
+  display: flex;
+  justify-content: space-around;
+}
 
-#bannerTop{
-
+#bannerTop {
   display: flex;
   justify-content: space-around;
   height: 120px;
@@ -28,12 +39,12 @@ justify-content: space-around;
 }
 
 #img-container {
-display: flex;
-align-items: center;
-justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#img-container > img {
+#img-container img {
   width: 100%;
   height: 100%;
   object-fit: fill;
@@ -43,14 +54,49 @@ justify-content: center;
   width: 700px;
 }
 
-#aside{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.card h4 {
+  padding: 20px;
 }
 
-#aside > img {
-  width: 100%;
-  height: 100%;
-  object-fit: fill;
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+#banner {
+  border: 1px solid whitesmoke;
+}
+
+/* #aside {
+  border-left: 1px solid whitesmoke;
+} */
+
+#asideImg {
+  width: 500px;
+}
+
+#mainImg {
+  width: 700px;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 450px) {
+  #bannerTop img {
+    display: flex;
+    margin: 10px;
+  }
+  #aside {
+    margin: 10px auto;
+  }
+  #asideImg {
+    margin: 10px auto;
+  }
+
+  #mainImg {
+    margin: 10px auto;
+  }
 }
