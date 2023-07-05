@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "hotrizontal_ad-top",
+        "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Logo_Pirelli.svg/2560px-Logo_Pirelli.svg.png"
+
+    },
+    {
+        "id":2,
+        "name": "hotrizontal_ad-middle",
+        "link": "https://explore-macedonia.mk/wp-content/uploads/2018/12/logo-new.png"
+    },
+    {
+        "id": 3,
+        "name": "aside_ad",
+        "link": "https://www.telegraph.co.uk/content/dam/travel/2022/04/01/TELEMMGLPICT000291413309_trans_NvBQzQNjv4BqqVzuuqpFlyLIwiB6NTmJwSX5rhseiWKOo9p9OQ-ymek.jpeg?imwidth=680"
+    },
+    {
+        "id": 4,
+        "name": "aside_ad",
+        "link": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/ff/c9/a1/caption.jpg?w=1100&h=1100&s=1"
+    },
+    {
+        "id": 5,
+        "name": "aside_ad",
+        "link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0t6VwXIC7Ws3OcnMReKwFQKkXtTfp3eRPng&usqp=CAU"
+    },
+    {
+        "id": 6,
+        "name": "aside_ad",
+        "link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD69ItrKTXkWbcVQmYA_V1XwiNuFsrlo7XuA&usqp=CAU"
+    },
+    {
+        "id": 7,
+        "name": "aside_ad",
+        "link": "https://cdn.ferrari.com/cms/network/media/img/resize/6319eb192f9a532677cbe3c4-ferrari-purosangue-social-card-intro-share?width=1080"
+    },
+    {
+        "id": 8,
+        "name": "aside_ad",
+        "link": "https://media.wired.com/photos/5beb674c156bb24b70f7c516/master/w_2560%2Cc_limit/02_YOGA_C930_Hero_Mode_Family_Iron_Grey.jpg"
+    }
+
+]

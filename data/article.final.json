@@ -1,6 +1,6 @@
 [
-  
-    {
+  {
+    "id": 1,
     "title": "Slovakia claims Russians sabotaged its fighter jets",
     "pubDate": "2023-04-07 16:28:14",
     "link": "https://www.rt.com/news/574373-slovakia-mig-jets-sabotage/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
@@ -9,7 +9,7 @@
     "thumbnail": "",
     "description": "\n<img alt=\"Preview\" align=\"left\" > Russian engineers may have intentionally sabotaged MiG-29 fighter jets that Slovakia gave to Ukraine, claims Defense Minister Jaroslav Nad’ <br><a href=\"https://www.rt.com/news/574373-slovakia-mig-jets-sabotage/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=RSS\">Read Full Article at RT.com</a>\n",
     "content": "\n<p><strong>Defense Minister Jaroslav Nad’ has suggested Russian technicians may have damaged jets that were later gifted to Ukraine</strong></p>\n            \n                        \n            <p>Soviet-made MiG-29 fighter jets belonging to the Slovak army may have been intentionally sabotaged by Russian engineers who worked on them before they were given to Ukraine, Slovakian Defense Minister Jaroslav Nad’ claimed on Friday.</p>\n<p>As reported by Euractiv, Nad’s statement came after former Slovakian prime minister Robert Fico criticized the government in Bratislava for giving up the valuable aircraft to Kiev.</p>\n<p>Slovakia retired its fleet of MiG-29s last summer as most of the planes were not operational. Last month, the Slovak government announced that it would be giving 10 MiGs with engines and another three without engines to Ukraine’s forces. Four of the jets have already been delivered and are patrolling the skies over Kharkov, according to Ukrainian officials, while the other nine are expected to arrive in the near future.</p>\n<p>However, Nad’ now suggests that the jets may have been intentionally damaged by Russian technicians who had worked on the planes at the Sliac air base in Slovakia until last year.</p>\n\n            \n    <blockquote>\n        <span><strong>Read more</strong></span>\n        <figure><img src=\"https://mf.b37mrtl.ru/files/2023.03/thumbnail/641474912030274a226524c2.jpg\" alt=\"FILE PHOTO: MIG - 29 fighter jet.\"><figcaption><a href=\"https://www.rt.com/russia/573140-dispose-old-jets-ukraine/\">NATO states using Ukraine to dispose of old weapons – Kremlin</a></figcaption></figure>\n</blockquote>\n\n\n    \n\n<p><em>“Even the police were investigating it, based on our suspicions. There were parts in the engines of the aircraft that Slovak technicians accessed, and then there were parts that Russian technicians only accessed. The defects appeared only in those parts accessed by Russians,”</em> Naď said. </p>\n<p>He added that while the investigation has failed to prove any ill intent on the part of the engineers, the defense ministry <em>“felt a loss of confidence in the Russian technicians”</em> because mistakes kept appearing<em> “in places only they could get to.”</em></p>\n<p>Slovakia’s former highest-ranking pilot, Lubomir Svoboda, also suggested there was<em> “poor”</em> workmanship on the jets. <em>“We took over an engine from them that was supposed to last 350 hours. And in the end, it only flew 70 hours. What can we make of that?”</em> he said.</p>\n<p>Russia’s embassy in Slovakia, meanwhile, has criticized officials for sending the jets to Ukraine, arguing that the move was <em>“illegal”</em> because it required Moscow’s approval under bilateral agreements. It also warned that such deliveries could lead to<em> “an unpredictable and dangerous escalation of the conflict.” </em></p>\n<p>Kremlin spokesman Dmitry Peskov has stated that the MiG-29s would be destroyed by Russian forces just like any other Western weapons sent to the country. Peskov also said he had the impression that Kiev’s allies were using Ukraine to simply <em>“dispose of old hardware that they do not need anymore.”</em></p>\n",
-          "img": "https://mf.b37mrtl.ru/files/2023.04/thumbnail/64303c7e85f54072a9182654.jpg",
+    "img": "https://mf.b37mrtl.ru/files/2023.04/thumbnail/64303c7e85f54072a9182654.jpg",
     "enclosure": {
       "link": "https://mf.b37mrtl.ru/files/2023.04/thumbnail/64303c7e85f54072a9182654.jpg",
       "type": "image/jpeg",
@@ -18,6 +18,7 @@
     "categories": []
   },
   {
+    "id": 2,
     "title": "German religious leader calls out Ukrainian diplomats",
     "pubDate": "2023-04-07 16:07:22",
     "link": "https://www.rt.com/news/574371-german-evangelical-leader-criticizes-ukraine/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
@@ -34,6 +35,7 @@
     "categories": []
   },
   {
+    "id": 3,
     "title": "Moscow reacts to Blinken’s counteroffensive claim",
     "pubDate": "2023-04-07 15:54:04",
     "link": "https://www.rt.com/news/574368-peskov-blinken-us-ukraine/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
@@ -50,6 +52,7 @@
     "categories": []
   },
   {
+    "id": 4,
     "title": "Donald Trump’s prosecution has propelled him back into the electoral game",
     "pubDate": "2023-04-07 15:04:09",
     "link": "https://www.rt.com/news/574358-trump-prosecution-president-election/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
@@ -66,6 +69,7 @@
     "categories": []
   },
   {
+    "id": 5,
     "title": "Taiwan faces choice between ‘peace and war’ – ex-president",
     "pubDate": "2023-04-07 14:54:22",
     "link": "https://www.rt.com/news/574367-asia-china-taiwan-visit/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
@@ -82,6 +86,7 @@
     "categories": []
   },
   {
+    "id": 6,
     "title": "Saudi Arabia to end Yemen war – media",
     "pubDate": "2023-04-07 14:40:32",
     "link": "https://www.rt.com/news/574369-saudi-arabia-yemen-war-end/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
@@ -98,6 +103,7 @@
     "categories": []
   },
   {
+    "id": 7,
     "title": "China imposes sanctions over US-Taiwan meeting",
     "pubDate": "2023-04-07 13:25:05",
     "link": "https://www.rt.com/news/574357-china-sanctions-us-entities-taiwan/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
@@ -114,6 +120,7 @@
     "categories": []
   },
   {
+    "id": 8,
     "title": "Embracing the empire: What does NATO accession mean for the once famously neutral Finland?",
     "pubDate": "2023-04-07 13:15:25",
     "link": "https://www.rt.com/news/574275-political-death-or-vital-move/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
@@ -130,6 +137,7 @@
     "categories": []
   },
   {
+    "id": 9,
     "title": "RT International extends reach via new platforms",
     "pubDate": "2023-04-07 13:15:17",
     "link": "https://www.rt.com/news/574360-rt-international-new-sattelites/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
@@ -146,6 +154,7 @@
     "categories": []
   },
   {
+    "id": 10,
     "title": "Traces of explosives found on Nord Stream sabotage-linked yacht – NYT",
     "pubDate": "2023-04-07 12:51:21",
     "link": "https://www.rt.com/news/574361-nord-stream-sabotage-yacht/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
@@ -161,5 +170,4 @@
     },
     "categories": []
   }
-
 ]
