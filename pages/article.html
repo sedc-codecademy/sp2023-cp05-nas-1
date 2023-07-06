@@ -37,6 +37,7 @@
             <a class="nav-link active" aria-current="page" href="index.html" id="home">Home</a>
           </li>
           <li class="nav-item">
+          <li class="nav-item">
             <a class="nav-link" href="archive.html">Archive</a>
           </li>
           <li class="nav-item">
@@ -48,13 +49,36 @@
   </nav>
 
 
-  <main class="container">
+  <main id="articleMain" class="container">
     <section id="articlePage">
     </section>
 
+    <aside id="sticky">
+      <div class="form">
+        <h2>Comment</h2>
+        <form action="index.html" method="GET">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required><br><br>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required><br><br>
+
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="5" cols="40" required></textarea><br><br>
+
+          <button>Submit</button>
+        </form>
+      </div>
+
+    </aside>
+
   </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 
   <script src="../src/article.js"></script>
+
 
 </body>
 
