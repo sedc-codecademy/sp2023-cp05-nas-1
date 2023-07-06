@@ -58,21 +58,6 @@ h3 {
   padding: 20px;
 }
 
-h1 {
-  text-align: center;
-}
-
-h3 {
-  text-align: center;
-}
-#banner {
-  border: 1px solid whitesmoke;
-}
-
-/* #aside {
-  border-left: 1px solid whitesmoke;
-} */
-
 #asideImg {
   width: 500px;
 }
@@ -80,11 +65,29 @@ h3 {
 #mainImg {
   width: 700px;
 }
+
 a:hover {
   text-decoration: underline;
 }
 
-@media (max-width: 450px) {
+#cardBtn {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+#articleMain {
+  display: flex;
+}
+
+#sticky {
+  padding: 20px;
+  border: 1px solid whitesmoke;
+  margin-top: 50px;
+  position: fixed;
+  right: 5%;
+}
+@media (max-width: 915px) {
   #bannerTop img {
     display: flex;
     margin: 10px;
@@ -98,5 +101,13 @@ a:hover {
 
   #mainImg {
     margin: 10px auto;
+  }
+
+  #articleMain {
+    display: block;
+  }
+  #sticky {
+    position: relative;
+    border: none;
   }
 }
